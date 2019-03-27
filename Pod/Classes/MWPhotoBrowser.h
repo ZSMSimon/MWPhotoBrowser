@@ -24,6 +24,7 @@
 
 - (NSUInteger)numberOfPhotosInPhotoBrowser:(MWPhotoBrowser *)photoBrowser;
 - (id <MWPhoto>)photoBrowser:(MWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index;
+- (void)removeFromPhotosAtIndex:(NSUInteger)index;
 
 @optional
 
@@ -39,10 +40,17 @@
 
 @end
 
+typedef void(^BackUpdateBlock)(void);
+typedef void(^RemoveIndexBlock)(NSUInteger index);
+
 @interface MWPhotoBrowser : UIViewController <UIScrollViewDelegate, UIActionSheetDelegate>
 
 @property (nonatomic, weak) IBOutlet id<MWPhotoBrowserDelegate> delegate;
 @property (nonatomic) UIColor* browserBackgroundColor;
+@property (nonatomic, copy) BackUpdateBlock backBlock;
+@property (nonatomic, copy) RemoveIndexBlock removeBlock;
+@property (nonatomic) BOOL displayToolBar;
+@property (nonatomic) BOOL displayDeleteButton;
 @property (nonatomic) BOOL zoomPhotosToFill;
 @property (nonatomic) BOOL displayNavArrows;
 @property (nonatomic) BOOL displayActionButton;
