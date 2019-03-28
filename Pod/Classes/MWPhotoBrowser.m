@@ -190,7 +190,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
     
     if (self.displayDeleteButton) {
         NSString *delegatePathFormat = @"MWPhotoBrowser.bundle/UIBarButtonItemDelete";
-        UIImage *deleteButtonImage = [UIImage imageForResourcePath:delegatePathFormat ofType:@"png" inBundle:[NSBundle bundleForClass:[self class]]];
+        UIImage *deleteButtonImage = [UIImage imageWithContentsOfFile:[[[NSBundle bundleForClass:[self class]] resourcePath] stringByAppendingPathComponent:delegatePathFormat]];
         UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithImage:deleteButtonImage style:UIBarButtonItemStyleDone target:self action:@selector(deleteIndexPicture)];
         self.navigationItem.rightBarButtonItem = rightItem;
     }
