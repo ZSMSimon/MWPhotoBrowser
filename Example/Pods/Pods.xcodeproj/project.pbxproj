@@ -170,11 +170,10 @@
 		9E4463D68D13C127762B1ACB8249B64C /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F1C2774EA53EFED096EA30A2AAC5D /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9E45CCEA27C77C98250DF4E68206BE64 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 169A909FC3C31688B34D458E45EEC5FE /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E9113C7797CB957AA3E624192F2966D /* MWPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB0FDC8C7A70CB34CA86BEE1D5545CC /* MWPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E9372C4224B64FA00AB8278 /* UIBarButtonItemDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9372C2224B64FA00AB8278 /* UIBarButtonItemDelete@2x.png */; };
-		9E9372C5224B64FA00AB8278 /* UIBarButtonItemDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9372C2224B64FA00AB8278 /* UIBarButtonItemDelete@2x.png */; };
-		9E9372C6224B64FA00AB8278 /* UIBarButtonItemDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9372C3224B64FA00AB8278 /* UIBarButtonItemDelete@3x.png */; };
-		9E9372C7224B64FA00AB8278 /* UIBarButtonItemDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9372C3224B64FA00AB8278 /* UIBarButtonItemDelete@3x.png */; };
 		9EA076D25036A0F4765FF3FB57CF4A6A /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D35FAC31B143E9C3FCBA3D6C7B271C /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9EF3C5B7224C862B001585A6 /* UIBarButtonItemDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF3C5B4224C862A001585A6 /* UIBarButtonItemDelete@2x.png */; };
+		9EF3C5B8224C862B001585A6 /* UIBarButtonItemDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF3C5B5224C862B001585A6 /* UIBarButtonItemDelete.png */; };
+		9EF3C5B9224C862B001585A6 /* UIBarButtonItemDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF3C5B6224C862B001585A6 /* UIBarButtonItemDelete@3x.png */; };
 		9F23A2F6A091FACBB7E71A6A8B3F1AB1 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FC8A2E1D26D118468C6EFF3A4B8D8F /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F51005FE4BF10FA9906B02DAD609C6E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F958C5A929F94E54AD37684741EF9B /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A009A5959BDE92B62C551E9E14663C72 /* Pods-MWPhotoBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41CA9A584569DB7DABC642DF48A74D4 /* Pods-MWPhotoBrowser_Tests-dummy.m */; };
@@ -628,9 +627,10 @@
 		9D9DDFFEA4795264F4069DC8691BFCF1 /* UIBarButtonItemArrowLeft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIBarButtonItemArrowLeft@2x.png"; path = "Pod/Assets/UIBarButtonItemArrowLeft@2x.png"; sourceTree = "<group>"; };
 		9DC470E4BD3900AD94D174088E586F8B /* ImageSelectedOn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ImageSelectedOn.png; path = Pod/Assets/ImageSelectedOn.png; sourceTree = "<group>"; };
 		9E8627B5B2C8B4E79AB2B5E076D11661 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		9E9372C2224B64FA00AB8278 /* UIBarButtonItemDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIBarButtonItemDelete@2x.png"; path = "Pod/Assets/UIBarButtonItemDelete@2x.png"; sourceTree = "<group>"; };
-		9E9372C3224B64FA00AB8278 /* UIBarButtonItemDelete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIBarButtonItemDelete@3x.png"; path = "Pod/Assets/UIBarButtonItemDelete@3x.png"; sourceTree = "<group>"; };
 		9EB0FDC8C7A70CB34CA86BEE1D5545CC /* MWPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWPhoto.h; path = Pod/Classes/MWPhoto.h; sourceTree = "<group>"; };
+		9EF3C5B4224C862A001585A6 /* UIBarButtonItemDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIBarButtonItemDelete@2x.png"; path = "Pod/Assets/UIBarButtonItemDelete@2x.png"; sourceTree = "<group>"; };
+		9EF3C5B5224C862B001585A6 /* UIBarButtonItemDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIBarButtonItemDelete.png; path = Pod/Assets/UIBarButtonItemDelete.png; sourceTree = "<group>"; };
+		9EF3C5B6224C862B001585A6 /* UIBarButtonItemDelete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIBarButtonItemDelete@3x.png"; path = "Pod/Assets/UIBarButtonItemDelete@3x.png"; sourceTree = "<group>"; };
 		9F451669B01796A0F110FCAD6352A94C /* UIImage+MWPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MWPhotoBrowser.h"; path = "Pod/Classes/UIImage+MWPhotoBrowser.h"; sourceTree = "<group>"; };
 		A1B3431C3C6094A95424A8B5100EAE80 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		A329A8CA10B9BCEEEF959EBC39180FA7 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
@@ -1095,8 +1095,9 @@
 				06A2B5E6F9CF50311307294D8A64CBBC /* VideoOverlay.png */,
 				EBA0992F5BD5E7C52474A898E7B2DE81 /* VideoOverlay@2x.png */,
 				6CA03ED03105E2CD15C133DCE32ACE95 /* VideoOverlay@3x.png */,
-				9E9372C2224B64FA00AB8278 /* UIBarButtonItemDelete@2x.png */,
-				9E9372C3224B64FA00AB8278 /* UIBarButtonItemDelete@3x.png */,
+				9EF3C5B5224C862B001585A6 /* UIBarButtonItemDelete.png */,
+				9EF3C5B4224C862A001585A6 /* UIBarButtonItemDelete@2x.png */,
+				9EF3C5B6224C862B001585A6 /* UIBarButtonItemDelete@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1865,8 +1866,6 @@
 				0037A9DFF578A4AFF0B7D1C7305E8E40 /* ImageSelectedSmallOff.png in Resources */,
 				C1CA627971B353DDDD82D932D7CB027E /* ImageSelectedSmallOff@2x.png in Resources */,
 				8772846C789C7C624C0C0E617E11FCF2 /* ImageSelectedSmallOff@3x.png in Resources */,
-				9E9372C5224B64FA00AB8278 /* UIBarButtonItemDelete@2x.png in Resources */,
-				9E9372C7224B64FA00AB8278 /* UIBarButtonItemDelete@3x.png in Resources */,
 				99FC4E8BADEE3C7E2410B3B688A8C0F5 /* ImageSelectedSmallOn.png in Resources */,
 				DB4989EDD807A9055F82EC4753D9807C /* ImageSelectedSmallOn@2x.png in Resources */,
 				4B4688760FD2BB013693DDD7A37A47EA /* ImageSelectedSmallOn@3x.png in Resources */,
@@ -1888,6 +1887,9 @@
 				5C24F1508D2272383A5D73F0470CC517 /* VideoOverlay.png in Resources */,
 				0D0D805F1D9B59630C5E3CB96A5814F6 /* VideoOverlay@2x.png in Resources */,
 				103C5EC133D3E698E920805C2C60AB8E /* VideoOverlay@3x.png in Resources */,
+				9EF3C5B8224C862B001585A6 /* UIBarButtonItemDelete.png in Resources */,
+				9EF3C5B9224C862B001585A6 /* UIBarButtonItemDelete@3x.png in Resources */,
+				9EF3C5B7224C862B001585A6 /* UIBarButtonItemDelete@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1895,9 +1897,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E9372C4224B64FA00AB8278 /* UIBarButtonItemDelete@2x.png in Resources */,
 				7FAAD8A1620BB8B8E8F6672671DBAEA5 /* MWPhotoBrowser.bundle in Resources */,
-				9E9372C6224B64FA00AB8278 /* UIBarButtonItemDelete@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
