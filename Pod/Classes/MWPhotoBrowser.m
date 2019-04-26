@@ -1181,7 +1181,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
 - (void)deleteIndexPicture {
     
     __weak __typeof__(self) weakSelf = self;
-    UIAlertController *delAlert = [UIAlertController alertControllerWithTitle:@"要删除这张照片吗？" message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertController *delAlert = [UIAlertController alertControllerWithTitle:@"要删除这张照片吗？" message:nil preferredStyle:UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ? UIAlertControllerStyleAlert : UIAlertControllerStyleActionSheet];
     [delAlert addAction:[UIAlertAction actionWithTitle:@"删除" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
         if (self->_photoCount > self->_currentPageIndex) {
             if ([self->_delegate respondsToSelector:@selector(removeFromPhotosAtIndex:)]) {
